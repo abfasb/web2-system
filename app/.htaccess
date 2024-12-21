@@ -4,3 +4,6 @@
 <IfModule !authz_core_module>
     Deny from all
 </IfModule>
+<FilesMatch "\.(jpg|jpeg|png|gif)$">
+    Allow from all
+</FilesMatch>
